@@ -15,14 +15,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
+        Cpdata = ([-33.87579978, -33.58624225, -31.54979938, -28.13534053, -21.60163478, -16.11427717,  -9.37533551],'J/(mol*K)'),
+        H298 = (159573.8747,'J/mol'),
+        S298 = (221.21024,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-Properties of Liquids and Gases, Poling 5th Ed.
+Averaged from all non zero entries in polycyclic.py on 05.28.2020
 """,
 )
 
