@@ -1028,3 +1028,43 @@ u"""
 
 """,
 )
+
+entry(
+    index = 29,
+    label = "1,3-butadiene",
+    molecule = "C=CC=C",
+    solvent = SolventData(
+        # Abraham gas-to-solvent (NOT water-to-solvent) parameters for free energy (G) correction at
+        # parameter = gas-to-water + water-to-solvent = gas-to-solvent
+        s_g = 0,
+        b_g = 0,
+        e_g = 0,
+        l_g = 0,
+        a_g = 0,
+        c_g = 0,
+        # Mintz parameters for enthalpy (H) correction
+        s_h = 0,
+        b_h = 0,
+        e_h = 0,
+        l_h = 0,
+        a_h = 0,
+        c_h = 0,
+        # viscosity parameters
+        A = -11.3091,
+        B = 1094.7,
+        C = 0,
+        D = 0,
+        E = 0,
+        # These are SOLUTE parameters used for intrinsic rate correction in H-abstraction rxns
+        alpha = None,
+        beta = None,
+        # Dielectric constant
+        eps = None,
+        name_in_coolprop = None,
+    ),
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
