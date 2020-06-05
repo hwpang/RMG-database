@@ -74,7 +74,7 @@ http://kinetics.nist.gov/kinetics/Detail?id=1983ZAL/HUN505:1
 
 entry(
     index = 3,
-    label = "C2H4-2 + CH2S <=> C3H6S",
+    label = "CH2S + C2H4 <=> C3H6S",
     kinetics = Arrhenius(A=(6.92e+10,'cm^3/(mol*s)'), n=0, Ea=(43.72,'kcal/mol'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Converted to training reaction from rate rule: CS;doublebond""",
@@ -82,7 +82,7 @@ entry(
 
 entry(
     index = 4,
-    label = "C2H4-2 + CH2O-2 <=> C3H6O-2",
+    label = "CH2O + C2H4 <=> C3H6O",
     kinetics = Arrhenius(A=(6.92e+10,'cm^3/(mol*s)'), n=0, Ea=(43.72,'kcal/mol'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Converted to training reaction from rate rule: CO;doublebond""",
@@ -90,7 +90,7 @@ entry(
 
 entry(
     index = 5,
-    label = "C2H4-2 + C2H2O <=> C4H6O",
+    label = "C2H2O + C2H4 <=> C4H6O",
     kinetics = Arrhenius(A=(6.92e+10,'cm^3/(mol*s)'), n=0, Ea=(43.72,'kcal/mol'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Converted to training reaction from rate rule: CCO;doublebond""",
