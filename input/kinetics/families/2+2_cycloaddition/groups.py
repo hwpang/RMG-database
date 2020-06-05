@@ -32,7 +32,7 @@ entry(
 
 tree(
 """
-L1: bd
+L1: db
 """
 )
 
