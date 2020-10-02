@@ -2744,6 +2744,80 @@ DOI: 10.1002/chem.201301381
 )
 
 entry(
+    index = 27,
+    label = "4-allylidenecyclopentene-allyl",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {6,S}
+2   Cd u0 {1,S} {4,D}
+3   Cd u0 {1,S} {5,S} {7,D}
+4   Cd u0 {2,D} {5,S}
+5   Cs u0 {3,S} {4,S}
+6   H  u0 {1,S}
+7   Cd u0 {3,D} {8,S}
+8   Cd u0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata = ([11.3387, -2.23652, -10.3172, -17.2917, -24.8844, -27.3964, -30.6576], 'J/(mol*K)'),
+        H298 = (292.08, 'kJ/mol'),
+        S298 = (-0.0470969, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""Fitted from cbs-qb3 calculation with AECs and BACs and 1dHR of species [CH]1C=CCC1=C1C=CCCC1""",
+    longDesc = 
+u"""
+Fitted from cbs-qb3 calculation with AECs and BACs and 1dHR of species [CH]1C=CCC1=C1C=CCCC1 (S_11702_) in multi-trays library.
+
+Library thermo data:
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[3.89604,0.00735469,0.00035039,-7.66241e-07,5.53463e-10,23204.7,15.7554], Tmin=(10,'K'), Tmax=(353.721,'K')),
+            NASAPolynomial(coeffs=[-4.8057,0.105754,-6.68746e-05,2.01662e-08,-2.33206e-12,23820.3,48.6933], Tmin=(353.721,'K'), Tmax=(3000,'K')),
+        ],
+        Tmin = (10,'K'),
+        Tmax = (3000,'K'),
+        E0 = (192.942,'kJ/mol'),
+        Cp0 = (33.2579,'J/(mol*K)'),
+        CpInf = (577.856,'J/(mol*K)'),
+    ),
+
+Bond corrections: {'C=C': 3, 'C-H': 13, 'C-C': 9}
+1D rotors:
+pivots: [5, 6], dihedral: [2, 5, 6, 4], rotor symmetry: 1, max scan energy: 57.00 kJ/mol
+
+
+External symmetry: 1, optical isomers: 2
+
+Geometry:
+C      -2.39409800   -0.68110500    0.77805000
+C      -1.02003200   -1.09849400    0.23174600
+C      -3.09341400    0.31337400   -0.15785700
+C       2.21989600    1.13658500   -0.36985500
+C      -0.14548800    0.09644800   -0.08874700
+C       1.25020900    0.00455300   -0.04425400
+C      -2.16297800    1.42210100   -0.56126300
+C       3.57496300    0.51327100   -0.17390600
+C      -0.81199800    1.29826900   -0.49122200
+C       2.02787600   -1.11110500    0.28611200
+C       3.42168400   -0.78352400    0.20248800
+H      -3.01978500   -1.56481100    0.93446700
+H      -2.25701800   -0.20817600    1.75675300
+H      -1.16073100   -1.69505800   -0.68156200
+H      -0.52350900   -1.75388800    0.95151000
+H      -3.45853500   -0.20895600   -1.05536000
+H      -3.98614900    0.72749800    0.32399800
+H       2.07323500    2.00256200    0.28741200
+H       2.08951700    1.50258000   -1.39601900
+H      -2.59680400    2.35108100   -0.91770400
+H       4.50896100    1.03894200   -0.31725200
+H      -0.20159300    2.15026000   -0.77378500
+H       1.64693200   -2.08510500    0.55959900
+H       4.22555800   -1.47847900    0.41113000
+
+""",
+)
+
+entry(
     index = 28,
     label = "Sec_Propargyl",
     group = 
@@ -11003,6 +11077,7 @@ L1: Radical
                         L7: cyclopropenyl-allyl
                         L7: 1,3-cyclopentadiene-allyl
                         L7: C=CCJC=C=O
+                        L7: 4-allylidenecyclopentene-allyl
                     L6: Sec_Propargyl
                     L6: CCJC=O
                         L7: CCJCHO
