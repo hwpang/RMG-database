@@ -4380,15 +4380,15 @@ entry(
 8   R!H u0 {4,S} {6,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-35.5098,-34.6031,-31.9528,-27.9945,-21.362,-15.0548,-8.5992],'J/(mol*K)'),
-        H298 = (71.0703,'kJ/mol'),
-        S298 = (213.583,'J/(mol*K)'),
+        Tdata = ([300, 400, 500, 600, 800, 1000, 1500], 'K'),
+        Cpdata = ([-36.6096, -35.9223, -33.3008, -29.2617, -22.4912, -16.0363, -9.24136], 'J/(mol*K)'),
+        H298 = (38.0013, 'kJ/mol'),
+        S298 = (219.128, 'J/(mol*K)'),
     ),
     shortDesc = """Fitted from thermo library values""",
     longDesc = 
 """
-Fitted from molecule s2_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
+Fitted from species s2_5_5_ene_1 from multi_trays library.
 """,
 )
 
