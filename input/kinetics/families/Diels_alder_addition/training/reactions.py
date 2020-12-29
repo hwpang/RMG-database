@@ -468,3 +468,147 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 """,
 )
 
+entry(
+    index = 20,
+    label = "C5H8-5 + C5H8-4 <=> C10H16-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.16667e+10,'cm^3/(mol*s)','+|-',2.16667e+09), n=0, Ea=(109.7,'kJ/mol','+|-',3.7), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: ISP + ISP <=> DISP_2
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 5 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
+entry(
+    index = 21,
+    label = "C5H8-6 + C5H8-4 <=> C10H16-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.23333e+08,'cm^3/(mol*s)','+|-',1e+07), n=0, Ea=(90.3,'kJ/mol','+|-',1.4), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: ISP + ISP <=> DISP_3
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 6 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
+entry(
+    index = 22,
+    label = "C5H8-4 + C5H6 <=> C10H14",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(8.46667e+07,'cm^3/(mol*s)','+|-',3e+06), n=0, Ea=(77.9,'kJ/mol','+|-',2), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: CPD + ISP <=> CPD-ISP_3
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 11 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
+entry(
+    index = 23,
+    label = "C5H8 + C5H8-7 <=> C10H16-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.3e+09,'cm^3/(mol*s)','+|-',2.33333e+08), n=0, Ea=(108.2,'kJ/mol','+|-',2.9), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: tP + tP <=> DtP_2
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 16 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
+entry(
+    index = 24,
+    label = "C5H8-8 + C5H8-7 <=> C10H16-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.34833e+08,'cm^3/(mol*s)','+|-',3.5e+06), n=0, Ea=(89.6,'kJ/mol','+|-',1.4), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: tP +tP <=> DtP_6
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 20 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
+entry(
+    index = 25,
+    label = "C5H8-7 + C5H6 <=> C10H14-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7.63333e+08,'cm^3/(mol*s)','+|-',7.83333e+07), n=0, Ea=(96.1,'kJ/mol','+|-',5.9), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: CPD + tP <=> CPD-tP_5
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 26 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
+entry(
+    index = 26,
+    label = "C5H8-7 + C5H6-2 <=> C10H14-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.1e+09,'cm^3/(mol*s)','+|-',1.83333e+08), n=0, Ea=(93.3,'kJ/mol','+|-',2.8), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: CPD + tP <=> CPD-tP_6
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 27 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
+entry(
+    index = 27,
+    label = "C5H6-3 + C5H10 <=> C10H16-7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.93333e+08,'cm^3/(mol*s)','+|-',2.16667e+07), n=0, Ea=(96.5,'kJ/mol','+|-',4.1), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: CPD + t2P <=> CPD-t2P_1
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 30 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
