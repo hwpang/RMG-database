@@ -99,3 +99,21 @@ Taken from entry: W3 <=> W2
 """,
 )
 
+entry(
+    index = 6,
+    label = "C10H14 <=> C10H14-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.75e+14,'1/s','+|-',6.66667e+12), n=0, Ea=(151.8,'kJ/mol','+|-',5.2), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Obtained from experimental data by Xu et al.""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Xu_cyclopentadiene
+Original entry: CPD-ISP_2 <=> CPD-ISP_3
+Kinetic parameters for reactions among C5 compounds
+were obtained from regression analysis of experimental
+reaction data from Xu et al. Table 1 entry 12 in DOI: 10.1021/acs.iecr.9b04018
+Ind. Eng. Chem. Res. 2019, 58, 22516−22525
+""",
+)
+
