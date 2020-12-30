@@ -136,3 +136,60 @@ Converted to training reaction from rate rule: R3_SS;S_rad;Spri_rad
 """,
 )
 
+entry(
+    index = 6,
+    label = "C8H12 <=> C8H12-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.47047e+10,'s^-1'), n=0.235677, Ea=(5.14242,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1000,'K'), comment="""Fitted to 81 data points; dA = *|/ 1.03099, dn = +|- 0.00424699, dEa = +|- 0.0156363 kJ/mol"""),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: DVT <=> VCH
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: B3LYP/CBSB7 in vacuum (freq scale factor: 0.99)
+SP: CBS-QB3
+""",
+)
+
+entry(
+    index = 7,
+    label = "C8H12-3 <=> C8H12-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.00689e+10,'s^-1'), n=0.00215293, Ea=(22.4612,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1000,'K'), comment="""Fitted to 81 data points; dA = *|/ 1.00636, dn = +|- 0.000882325, dEa = +|- 0.00324848 kJ/mol"""),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: DVT <=> COD
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: B3LYP/CBSB7 in vacuum (freq scale factor: 0.99)
+SP: CBS-QB3
+""",
+)
+
+entry(
+    index = 8,
+    label = "C8H12-5 <=> C8H12-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.21792e+10,'s^-1'), n=0.359974, Ea=(13.4572,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1000,'K'), comment="""Fitted to 81 data points; dA = *|/ 1.05924, dn = +|- 0.00800783, dEa = +|- 0.0294826 kJ/mol"""),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: DVT <=> DVCB
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: B3LYP/CBSB7 in vacuum (freq scale factor: 0.99)
+SP: CBS-QB3
+""",
+)
+
