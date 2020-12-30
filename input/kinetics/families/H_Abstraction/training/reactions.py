@@ -43472,3 +43472,44 @@ Journal of Physical Chemistry A 113.17 (2009): 5047-5060.
 """,
 )
 
+entry(
+    index = 3107,
+    label = "CH3O2 + C4H6-4 <=> CH4O2 + C4H5-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.25454e-13,'cm^3/(mol*s)'), n=8.39573, Ea=(63.6232,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: multi_trays
+Original entry: BD + MP_rad <=> BD_rad_2 + MP
+TS method summary for TS1 in BD + MP_rad <=> BD_rad_2 + MP
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+C      -3.33955000   -1.74730500    0.88907500
+H      -2.87005100   -2.53532100    1.46591200
+H      -4.41541900   -1.64428100    0.96133400
+C      -2.62424000   -0.93428500    0.10447200
+H      -3.13112900   -0.15719800   -0.47320700
+C      -1.19350800   -0.98127000   -0.06524700
+H      -0.52655700   -1.95878100    0.81691100
+C      -0.33541500   -0.29843100   -0.80299200
+H      -0.67308600    0.50446300   -1.46084600
+H       0.73049400   -0.49839500   -0.78645200
+O       0.05488100   -2.66267300    1.42125600
+O      -0.66446100   -3.87847000    1.36623100
+C      -0.16794600   -4.64559800    0.27442700
+H       0.90957100   -4.80073700    0.37163900
+H      -0.69384800   -5.60057500    0.33708100
+H      -0.39219800   -4.15799500   -0.68057300
+
+1D rotors:
+pivots: [4, 6], dihedral: [1, 4, 6, 8], rotor symmetry: 1, max scan energy: 14.23 kJ/mol
+pivots: [11, 12], dihedral: [7, 11, 12, 13], rotor symmetry: 1, max scan energy: 45.19 kJ/mol
+pivots: [12, 13], dihedral: [11, 12, 13, 14], rotor symmetry: 3, max scan energy: 10.93 kJ/mol
+""",
+)
+
