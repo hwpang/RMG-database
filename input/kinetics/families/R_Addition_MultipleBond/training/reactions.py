@@ -58036,3 +58036,85 @@ H      -0.72607400   -1.53484200   -0.46005200
 pivots: [1, 2], dihedral: [6, 1, 2, 7], rotor symmetry: 1, max scan energy: 21.39 kJ/mol
 """,
 )
+entry(
+    index = 2894,
+    label = "CH3O2 + C4H6 <=> C5H9O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.661492,'cm^3/(mol*s)'), n=3.67941, Ea=(24.5192,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: multi_trays
+Original entry: BD + MP_rad <=> 4-MPBut_rad
+TS method summary for TS2 in BD + MP_rad <=> 4-MPBut_rad
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+C      -3.15482500   -0.40555900   -4.49719500
+H      -2.85721600   -1.42472500   -4.28431600
+H      -3.87039200   -0.25838300   -5.29975600
+C      -2.66345600    0.63632100   -3.79451500
+H      -1.94608000    0.44207900   -2.99972100
+C      -3.02342400    2.00483800   -4.00958600
+H      -3.72587300    2.21705400   -4.81197900
+C      -2.48338100    3.05999900   -3.29942600
+H      -2.91621800    4.04761400   -3.37973000
+H      -1.92284100    2.86273200   -2.39320600
+O      -0.82478200    3.60799400   -4.20426200
+O      -1.10203300    4.48945100   -5.22229800
+C      -0.98108700    3.81852100   -6.47760300
+H      -1.10322100    4.59479100   -7.23533300
+H       0.00218100    3.35064000   -6.56428000
+H      -1.76277100    3.05970400   -6.58090400
+
+1D rotors:
+pivots: [4, 6], dihedral: [1, 4, 6, 8], rotor symmetry: 1, max scan energy: 45.46 kJ/mol
+pivots: [12, 13], dihedral: [11, 12, 13, 14], rotor symmetry: 3, max scan energy: 7.91 kJ/mol
+""",
+)
+
+entry(
+    index = 2895,
+    label = "CH3O2 + C4H6-2 <=> C5H9O2-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.8054e-05,'cm^3/(mol*s)'), n=5.15575, Ea=(43.83,'kJ/mol'), T0=(1,'K'), Tmin=(275,'K'), Tmax=(350,'K')),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: multi_trays
+Original entry: BD + MP_rad <=> 3-MPBut_rad
+TS method summary for TS3 in BD + MP_rad <=> 3-MPBut_rad
+
+The method that generated the best TS guess and its output used for the optimization: user guess 0
+
+TS external symmetry: 1, TS optical isomers: 2
+
+Optimized TS geometry:
+C      -3.37885300   -1.32767400   -3.99615700
+H      -2.84085600   -2.26733900   -4.03880100
+H      -4.38724700   -1.31986500   -4.39695800
+C      -2.82878000   -0.23121700   -3.47706600
+H      -1.81348900   -0.26296700   -3.08980000
+C      -3.12126700    1.98806600   -2.40959000
+H      -3.73701800    2.84264100   -2.16094800
+H      -2.13843100    1.92433000   -1.95788400
+C      -3.51877900    1.06765700   -3.38714000
+H      -4.56785800    1.05627800   -3.66449900
+O      -2.95585200    1.82302600   -4.96075800
+O      -3.85652000    2.81576800   -5.34773000
+C      -3.21269900    4.08215000   -5.25036200
+H      -3.92883000    4.80149700   -5.65366900
+H      -2.98385000    4.32054200   -4.20608200
+H      -2.29298200    4.09357600   -5.84089800
+
+1D rotors:
+pivots: [4, 9], dihedral: [1, 4, 9, 6], rotor symmetry: 1, max scan energy: 16.03 kJ/mol
+pivots: [9, 11], dihedral: [4, 9, 11, 12], rotor symmetry: 1, max scan energy: 12.96 kJ/mol
+pivots: [11, 12], dihedral: [9, 11, 12, 13], rotor symmetry: 1, max scan energy: 56.49 kJ/mol
+pivots: [12, 13], dihedral: [11, 12, 13, 14], rotor symmetry: 3, max scan energy: 9.51 kJ/mol
+""",
+)
+
