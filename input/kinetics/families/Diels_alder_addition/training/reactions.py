@@ -612,3 +612,52 @@ Ind. Eng. Chem. Res. 2019, 58, 22516−22525
 """,
 )
 
+entry(
+    index = 28,
+    label = "C5H8-6 + C5H8-4 <=> C10H16-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.69932,'cm^3/(mol*s)'), n=2.50029, Ea=(85.3903,'kJ/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Isoprene reactions calculated at CBS-QB3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: ISP + ISP <=> DISP3
+Isoprene reactions calculated at CBS-QB3 by Hao-Wei Pang in Oct 2019
+""",
+)
+
+entry(
+    index = 29,
+    label = "C5H8-5 + C5H8-4 <=> C10H16-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.63093,'cm^3/(mol*s)'), n=2.51242, Ea=(89.5878,'kJ/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Isoprene reactions calculated at CBS-QB3""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: ISP + ISP <=> DISP2
+Isoprene reactions calculated at CBS-QB3 by Hao-Wei Pang in Oct 2019
+""",
+)
+
+entry(
+    index = 30,
+    label = "C4H6 + C8H12-3 <=> C12H18",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(839769,'cm^3/(mol*s)'), n=1.15583, Ea=(108.915,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1000,'K'), comment="""Fitted to 81 data points; dA = *|/ 1.03231, dn = +|- 0.00442451, dEa = +|- 0.0162898 kJ/mol"""),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: BD + VCH <=> TRIN
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: B3LYP/CBSB7 in vacuum (freq scale factor: 0.99)
+SP: CBS-QB3
+""",
+)
+
