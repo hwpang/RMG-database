@@ -25,3 +25,22 @@ Taken from entry: II <=> III
 """,
 )
 
+entry(
+    index = 1,
+    label = "C4H6 <=> C4H6-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.05558e+13,'s^-1'), n=-0.386712, Ea=(186.246,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1000,'K'), comment="""Fitted to 81 data points; dA = *|/ 1.0933, dn = +|- 0.0124118, dEa = +|- 0.0456969 kJ/mol"""),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: BD <=> CB
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: B3LYP/CBSB7 in vacuum (freq scale factor: 0.99)
+SP: CBS-QB3
+""",
+)
+
