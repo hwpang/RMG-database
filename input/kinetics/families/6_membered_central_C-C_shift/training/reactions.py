@@ -117,3 +117,22 @@ Ind. Eng. Chem. Res. 2019, 58, 22516−22525
 """,
 )
 
+entry(
+    index = 7,
+    label = "C8H12 <=> C8H12-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.59503e+10,'s^-1'), n=0.0992821, Ea=(104.188,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(1000,'K'), comment="""Fitted to 81 data points; dA = *|/ 1.04618, dn = +|- 0.00628203, dEa = +|- 0.0231287 kJ/mol"""),
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Conjugated_diene
+Original entry: DVCB <=> COD
+Calculated by ACS using multiple-structure local-harmonic 
+conventional transition state theory with Eckart tunneling 
+(MS-LH-CTST/Eckart).
+
+Optfreq: B3LYP/CBSB7 in vacuum (freq scale factor: 0.99)
+SP: CBS-QB3
+""",
+)
+
